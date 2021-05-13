@@ -3,11 +3,47 @@ There are 2 classes one is Emp1 class and the other one is Mainclass.
 
 The Emp1 class has all the buisness logics and Mainclass contains the real entity.
 
- In theEmp1 class I have given the date members like name, age, salary and designation which are required to create the methods like Create,Display, Raisesalary and Exit from the page.
+ In theEmp1 class I have given the date members like name, age, salary and designation like
+ 
+ String name;
+ 
+ int age;
+ 
+ double salary;
+ 
+ String job;
+ 
+ To give the inputs from the user end we have used Scanner class.
+ 
+ Scanner sc = new Scanner(System.in);
+ 
+ These data members are required to create the methods like Create,Display, RaiseSalary and Exit from the page like,
+ 
+ void create()
+ 
+ void display()
+ 
+ void RaiseSalary()
  
 In the create method inputs are given by the user, after creating the user details they can be read by using Display method, If we want to Raise the salary of theemployee then we have to call the raisesalary mothod and if we want to exit from the program then we have to call Exit mathod.
 
-To call these four mothods i have used switch case, 1 for Create, 2 for Display, 3 for Raise Salary and 4 for Exit
+To call these four mothods i have used switch case inthe Mainclass and used key 1 for Create, 2 for Display, 3 for Raise Salary and 4 for Exit
+
+if(i==4) break;
+
+switch(i){
+
+         case 1: e.create();
+                  
+                  break;
+                  
+         case 2: e.display();
+                 
+                 break;
+                 
+         case 3: e.RaiseSalary();
+         
+                 break;
 
 In the main class I have created the object of the Emp1 class and call the methods.
 
