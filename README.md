@@ -6,11 +6,8 @@ The Emp1 class has all the buisness logics and Mainclass contains the real entit
  In theEmp1 class I have given the date members like name, age, salary and designation like 
  
 String name;
-
 int age;
-
 double salary;
-
 String job;
  
  
