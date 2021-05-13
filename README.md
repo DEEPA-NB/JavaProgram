@@ -3,12 +3,8 @@ There are 2 classes one is Emp1 class and the other one is Mainclass.
 
 The Emp1 class has all the buisness logics and Mainclass contains the real entity.
 
- In theEmp1 class I have given the date members like name, age, salary and designation like
+ In theEmp1 class I have given the date members like name, age, salary and designation like   
  
- String name;
- int age;
- double salary;
- String job;
  
  To give the inputs from the user end we have used Scanner class.
  
