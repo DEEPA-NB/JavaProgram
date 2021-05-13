@@ -3,7 +3,12 @@ There are 2 classes one is Emp1 class and the other one is Mainclass.
 
 The Emp1 class has all the buisness logics and Mainclass contains the real entity.
 
- In theEmp1 class I have given the date members like name, age, salary and designation like   
+ In theEmp1 class I have given the date members like name, age, salary and designation like 
+ 
+String name;
+int age;
+double salary;
+String job;
  
  
  To give the inputs from the user end we have used Scanner class.
@@ -12,11 +17,10 @@ The Emp1 class has all the buisness logics and Mainclass contains the real entit
  
  These data members are required to create the methods like Create,Display, RaiseSalary and Exit from the page like,
  
- void create()
+ create method can be defined as:
  
- void display()
  
- void RaiseSalary()
+ 
  
 In the create method inputs are given by the user, after creating the user details they can be read by using Display method, If we want to Raise the salary of theemployee then we have to call the raisesalary mothod and if we want to exit from the program then we have to call Exit mathod.
 
