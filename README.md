@@ -21,14 +21,23 @@ String job;
  
    void create()
          {
+         
          System.out.println("Enter name :");
+         
          this.name=sc.next();
+         
          System.out.println("Enter Age :");
+         
          this.age=sc.nextInt();
+         
          System.out.println("Enter Salary :");
+         
          this.salary=sc.nextDouble();
+         
          System.out.println("Enter Designation :");
+         
          this.job=sc.next();
+         
          }
          
    To display the entered data i have written this display method as:
@@ -38,7 +47,7 @@ String job;
          System.out.println("Name: "+this.name+"\n Age :"+this.age+"\n Salary :"+this.salary+"\n Designation :"+this.job);
          }
          
-         To Raise the Salary, RaiseSalary method is written:
+To raise the salary i have written RaiseSalary method and defind as:
          
          void RaiseSalary()
          {
