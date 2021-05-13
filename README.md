@@ -1,4 +1,4 @@
-# JavaProgram to Employ details
+# JavaProgram to upload and get the Employee details
 There are 2 classes one is Emp1 class and the other one is Mainclass.
 The Emp1 class has all the buisness logics and Mainclass contains the real entity.
 Emp1 class I have giventhedatemembers like name, age, salary and designation which are required to create the methods like Create,Display, Raisesalary and Exit from the page.
